@@ -1,11 +1,12 @@
 " Vim syntax file
 " Language:     Cascading Style Sheets
 " Previous Contributor List:
+"               Jules Wang      <w.jq0722@gmail.com>
 "               Claudio Fleiner <claudio@fleiner.com> (Maintainer)
 "               Yeti            (Add full CSS2, HTML4 support)
 "               Nikolai Weibull (Add CSS2 support)
-" URL:          https://github.com/JulesWang/css.vim
-" Maintainer:   Jules Wang      <w.jq0722@gmail.com>
+" URL:          https://github.com/jsit/css.vim
+" Maintainer:   Jay Sitter <jay@jaysitter.com>
 " Last Change:  2019 Jul. 29
 
 " quit when a syntax file was already loaded
