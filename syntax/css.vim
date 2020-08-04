@@ -283,6 +283,7 @@ syn match cssGridProp contained "\<grid\>"
 syn match cssGridProp contained "\<grid-template\(-\(columns\|rows\|areas\)\)\=\>"
 syn match cssGridProp contained "\<grid-\(column\|row\)\(-\(start\|end\|gap\)\)\=\>"
 syn match cssGridProp contained "\<grid-\(area\|gap\)\>"
+syn match cssGridProp contained "\<gap\>"
 syn match cssGridProp contained "\<grid-auto-\(flow\|rows\|columns\)\>"
 
 syn match cssHyerlinkProp contained "\<target\(-\(name\|new\|position\)\)\=\>"
