@@ -5,7 +5,7 @@
 "               Claudio Fleiner <claudio@fleiner.com> (Maintainer)
 "               Yeti            (Add full CSS2, HTML4 support)
 "               Nikolai Weibull (Add CSS2 support)
-" URL:          https://github.com/jsit/css.vim
+" URL:          https://github.com/vim-language-dept/css.vim
 " Maintainer:   Jay Sitter <jay@jaysitter.com>
 " Last Change:  2019 Jul. 29
 
@@ -61,7 +61,7 @@ syn match cssClassName "\.-\=[A-Za-z_][A-Za-z0-9_-]*" contains=cssClassNameDot
 syn match cssClassNameDot contained '\.'
 
 try
-syn match cssIdentifier "#[A-Za-zÀ-ÿ_@][A-Za-zÀ-ÿ0-9_@-]*"
+syn match cssIdentifier "#[A-Za-zÃ€-Ã¿_@][A-Za-zÃ€-Ã¿0-9_@-]*"
 catch /^.*/
 syn match cssIdentifier "#[A-Za-z_@][A-Za-z0-9_@-]*"
 endtry
