@@ -18,7 +18,7 @@ Copy `css.vim` file into your `~/.vim/syntax/` directory.
 Add the following line to your `~/.vimrc` file:
 
 ```
-Plugin 'vim-language-dept/css.vim'
+Plugin 'vim-language-dept/css-syntax.vim'
 ```
 
 and run `:PluginInstall` in Vim.

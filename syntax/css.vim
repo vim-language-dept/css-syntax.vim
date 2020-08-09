@@ -5,7 +5,7 @@
 "               Claudio Fleiner <claudio@fleiner.com> (Maintainer)
 "               Yeti            (Add full CSS2, HTML4 support)
 "               Nikolai Weibull (Add CSS2 support)
-" URL:          https://github.com/vim-language-dept/css.vim
+" URL:          https://github.com/vim-language-dept/css-syntax.vim
 " Maintainer:   Jay Sitter <jay@jaysitter.com>
 " Last Change:  2019 Jul. 29
 
