@@ -11,20 +11,28 @@ details.
 
 ### Manual
 
-copy `css.vim` file into your `~/.vim/syntax/` directory;
+Copy `css.vim` file into your `~/.vim/syntax/` directory.
 
-### Using Vundle:
+### Using Vundle
 
-add the following line to your `~/.vimrc` file;
+Add the following line to your `~/.vimrc` file:
 
 ```
-Plugin 'jsit/css.vim'
+Plugin 'vim-language-dept/css.vim'
 ```
 
-and run `:PluginInstall` in vim.
+and run `:PluginInstall` in Vim.
+
+## More Info
+
+- https://www.w3.org/Style/2011/CSS-process
+- https://www.w3.org/Style/CSS/current-work
+- https://www.w3.org/Consortium/Process#candidate-rec
+- https://developer.mozilla.org/en-US/docs/Web/CSS
 
 ## Thanks
-* JulesWang https://github.com/JulesWang/css.vim
-* ChrisYip, amadeus https://github.com/amadeus/Better-CSS-Syntax-for-Vim
-* hail2u   https://github.com/hail2u/vim-css3-syntax
-* leptrue  https://github.com/lepture/vim-css
+
+- JulesWang https://github.com/JulesWang/css.vim
+- ChrisYip, amadeus https://github.com/amadeus/Better-CSS-Syntax-for-Vim
+- hail2u   https://github.com/hail2u/vim-css3-syntax
+- leptrue  https://github.com/lepture/vim-css
