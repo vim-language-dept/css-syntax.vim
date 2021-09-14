@@ -23,6 +23,8 @@ let s:cpo_save = &cpo
 set cpo&vim
 
 syn case ignore
+" Add dash to allowed keyword characters.
+syn iskeyword @,48-57,_,192-255,-
 
 " HTML4 tags
 syn keyword cssTagName abbr address area a b base
@@ -234,9 +236,7 @@ syn keyword cssFontAttr contained larger smaller
 syn match cssFontAttr contained "\<\(x\{1,2\}-\)\=\(large\|small\)\>"
 syn match cssFontAttr contained "\<small-\(caps\|caption\)\>"
 " font-family attributes
-syn match cssFontAttr contained "\<\(sans-\)\=serif\>"
-syn keyword cssFontAttr contained Antiqua Arial Black Book Charcoal Comic Courier Dingbats Gadget Geneva Georgia Grande Helvetica Impact Linotype Lucida MS Monaco Neue New Palatino Roboto Roman Symbol Tahoma Times Trebuchet Verdana Webdings Wingdings York Zapf
-syn keyword cssFontAttr contained cursive fantasy monospace
+syn keyword cssFontAttr contained sans-serif serif cursive fantasy monospace
 " font-feature-settings attributes
 syn keyword cssFontAttr contained on off
 " font-stretch attributes

@@ -293,3 +293,8 @@ and (max-device-width:1024px)
    padding: var(--pad, 10px 15px 20px);
    color: var(--foo, #7F583F);
 }
+
+#issue6 {
+  font-family: Roboto, Helvetica, test-serif, testing-sans-serif;
+  font-family: monospace, cursive, fantasy, serif, sans-serif
+}
