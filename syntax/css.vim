@@ -222,7 +222,7 @@ syn keyword cssFlexibleBoxProp contained order
 syn match cssFlexibleBoxAttr contained "\<\(row\|column\|wrap\)\(-reverse\)\=\>"
 syn keyword cssFlexibleBoxAttr contained nowrap stretch baseline center
 syn match cssFlexibleBoxAttr contained "\<flex\(-\(start\|end\)\)\=\>"
-syn match cssFlexibleBoxAttr contained "\<space\(-\(between\|around\)\)\=\>"
+syn match cssFlexibleBoxAttr contained "\<space\(-\(between\|around\|evenly\)\)\=\>"
 
 " CSS Fonts Module Level 3
 " http://www.w3.org/TR/css-fonts-3/
