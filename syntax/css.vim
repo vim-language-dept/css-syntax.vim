@@ -304,7 +304,7 @@ syn keyword cssPositioningAttr contained left right both
 syn match cssPositioningAttr contained "\<list-item\>"
 syn match cssPositioningAttr contained "\<inline\(-\(block\|box\|table\|grid\|flex\)\)\=\>"
 syn match cssPositioningAttr contained "\<flow\(-root\)\=\>"
-syn keyword cssPositioningAttr contained static relative absolute fixed subgrid
+syn keyword cssPositioningAttr contained static relative absolute fixed subgrid sticky
 
 syn keyword cssPrintAttr contained landscape portrait crop cross always
 
