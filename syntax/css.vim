@@ -34,7 +34,7 @@ syn keyword cssTagName dfn div dl dt em fieldset form
 syn keyword cssTagName h1 h2 h3 h4 h5 h6 head hr html img i
 syn keyword cssTagName iframe input ins isindex kbd label legend li
 syn keyword cssTagName link map menu meta noscript ol optgroup
-syn keyword cssTagName option p param pre q s samp script small
+syn keyword cssTagName option p param picture pre q s samp script small
 syn keyword cssTagName span strong sub sup tbody td
 syn keyword cssTagName textarea tfoot th thead title tr ul u var
 syn keyword cssTagName object svg
