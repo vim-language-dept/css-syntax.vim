@@ -295,6 +295,10 @@ syn match cssListAttr contained "\<\(decimal\(-leading-zero\)\=\|cjk-ideographic
 syn keyword cssListAttr contained disc circle square hebrew armenian georgian
 syn keyword cssListAttr contained inside outside
 
+" object-fit https://www.w3.org/TR/css-images-3/#the-object-fit
+syn match cssObjectProp contained "\<object-\(fit\|position\)\>"
+syn keyword cssObjectAttr contained fill contain cover scale-down
+
 syn keyword cssPositioningProp contained bottom clear clip display float left
 syn keyword cssPositioningProp contained position right top visibility
 syn match cssPositioningProp contained "\<z-index\>"
@@ -549,6 +553,7 @@ hi def link cssMarqueeProp cssProp
 hi def link cssMultiColumnProp cssProp
 hi def link cssPagedMediaProp cssProp
 hi def link cssPositioningProp cssProp
+hi def link cssObjectProp cssProp
 hi def link cssPrintProp cssProp
 hi def link cssRubyProp cssProp
 hi def link cssSpeechProp cssProp
@@ -582,6 +587,7 @@ hi def link cssMultiColumnAttr cssAttr
 hi def link cssPaddingAttr cssAttr
 hi def link cssPagedMediaAttr cssAttr
 hi def link cssPositioningAttr cssAttr
+hi def link cssObjectAttr cssAttr
 hi def link cssGradientAttr cssAttr
 hi def link cssPrintAttr cssAttr
 hi def link cssRubyAttr cssAttr
