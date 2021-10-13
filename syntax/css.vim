@@ -7,7 +7,7 @@
 "               Nikolai Weibull (Add CSS2 support)
 " URL:          https://github.com/vim-language-dept/css-syntax.vim
 " Maintainer:   Jay Sitter <jay@jaysitter.com>
-" Last Change:  2019 Jul. 29
+" Last Change:  2021 Oct 13
 
 " quit when a syntax file was already loaded
 if !exists("main_syntax")
