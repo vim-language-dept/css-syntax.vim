@@ -2,7 +2,7 @@
 " Language:     Cascading Style Sheets
 " Previous Contributor List:
 "               Jules Wang      <w.jq0722@gmail.com>
-"               Claudio Fleiner <claudio@fleiner.com> (Maintainer)
+"               Claudio Fleiner <claudio@fleiner.com>
 "               Yeti            (Add full CSS2, HTML4 support)
 "               Nikolai Weibull (Add CSS2 support)
 " URL:          https://github.com/vim-language-dept/css-syntax.vim
