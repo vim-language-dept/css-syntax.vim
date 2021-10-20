@@ -7,7 +7,7 @@
 "               Nikolai Weibull (Add CSS2 support)
 " URL:          https://github.com/vim-language-dept/css-syntax.vim
 " Maintainer:   Jay Sitter <jay@jaysitter.com>
-" Last Change:  2021 Oct 13
+" Last Change:  2021 Oct 20
 
 " quit when a syntax file was already loaded
 if !exists("main_syntax")
@@ -423,11 +423,15 @@ syn keyword cssAuralAttr contained male female child code digits continuous
 syn match cssMobileTextProp contained "\<text-size-adjust\>"
 
 syn keyword cssMediaProp contained width height orientation scan
+syn keyword cssMediaProp contained any-hover any-pointer color-gamut grid hover
+syn keyword cssMediaProp contained overflow-block overflow-inline pointer update
 syn match cssMediaProp contained /\(\(max\|min\)-\)\=\(\(device\)-\)\=aspect-ratio/
 syn match cssMediaProp contained /\(\(max\|min\)-\)\=device-pixel-ratio/
 syn match cssMediaProp contained /\(\(max\|min\)-\)\=device-\(height\|width\)/
 syn match cssMediaProp contained /\(\(max\|min\)-\)\=\(height\|width\|resolution\|monochrome\|color\(-index\)\=\)/
 syn keyword cssMediaAttr contained portrait landscape progressive interlace
+syn keyword cssMediaAttr contained coarse fast fine hover infinite p3 paged
+syn keyword cssMediaAttr contained rec2020 scroll slow srgb
 syn match cssKeyFrameProp contained /\(\d\+\(\.\d\+\)\?%\|\(\<from\|to\>\)\)/ nextgroup=cssDefinition
 syn match cssPageMarginProp /@\(\(top\|left\|right\|bottom\)-\(left\|center\|right\|middle\|bottom\)\)\(-corner\)\=/ contained nextgroup=cssDefinition
 syn keyword cssPageProp contained content size
