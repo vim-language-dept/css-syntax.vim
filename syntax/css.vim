@@ -175,6 +175,8 @@ syn keyword cssBackgroundAttr contained cover contain
 
 syn match cssBorderProp contained "\<border\(-\(top\|right\|bottom\|left\)\)\=\(-\(width\|color\|style\)\)\=\>"
 syn match cssBorderProp contained "\<border\(-\(top\|bottom\)-\(left\|right\)\)\=-radius\>"
+syn match cssBorderProp contained "\<border-\(inline\|block\)\(-\(start\|end\)\)\=\(-\(style\|width\|color\)\)\=\>"
+syn match cssBorderProp contained "\<border-\(start\|end\)-\(start\|end\)-radius\>"
 syn match cssBorderProp contained "\<border-image\(-\(outset\|repeat\|slice\|source\|width\)\)\=\>"
 syn match cssBorderProp contained "\<box-decoration-break\>"
 syn match cssBorderProp contained "\<box-shadow\>"
@@ -194,6 +196,7 @@ syn keyword cssBorderAttr contained clone slice
 
 syn match cssBoxProp contained "\<padding\(-\(top\|right\|bottom\|left\)\)\=\>"
 syn match cssBoxProp contained "\<margin\(-\(top\|right\|bottom\|left\)\)\=\>"
+syn match cssBoxProp contained "\<\(margin\|padding\)\(-\(inline\|block\)\(-\(start\|end\)\)\)\=\>"
 syn match cssBoxProp contained "\<overflow\(-\(x\|y\|style\)\)\=\>"
 syn match cssBoxProp contained "\<rotation\(-point\)\=\>"
 syn keyword cssBoxAttr contained visible hidden scroll auto
