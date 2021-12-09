@@ -7,6 +7,13 @@ document that has reached the level of Candidate Recommendation or higher. Check
 [the "current work" page](https://www.w3.org/Style/CSS/current-work) for more
 details.
 
+## Working Draft branch
+
+The `wd` branch contains specs that are in Working Draft status. Switch to this
+branch for highlighting for things like ["flow-relative"
+properties](https://www.w3.org/TR/css-logical-1/) that haven't made it into
+Candidate Recommendation yet.
+
 ## Installation
 
 ### Manual
