@@ -426,10 +426,10 @@ syn match cssMobileTextProp contained "\<text-size-adjust\>"
 syn keyword cssMediaProp contained width height orientation scan
 syn keyword cssMediaProp contained any-hover any-pointer color-gamut grid hover
 syn keyword cssMediaProp contained overflow-block overflow-inline pointer update
-syn match cssMediaProp contained /\(\(max\|min\)-\)\=\(\(device\)-\)\=aspect-ratio/
-syn match cssMediaProp contained /\(\(max\|min\)-\)\=device-pixel-ratio/
-syn match cssMediaProp contained /\(\(max\|min\)-\)\=device-\(height\|width\)/
-syn match cssMediaProp contained /\(\(max\|min\)-\)\=\(height\|width\|resolution\|monochrome\|color\(-index\)\=\)/
+syn match cssMediaProp contained /\<\(\(max\|min\)-\)\=\(\(device\)-\)\=aspect-ratio\>/
+syn match cssMediaProp contained /\<\(\(max\|min\)-\)\=device-pixel-ratio\>/
+syn match cssMediaProp contained /\<\(\(max\|min\)-\)\=device-\(height\|width\)\>/
+syn match cssMediaProp contained /\<\(\(max\|min\)-\)\=\(height\|width\|resolution\|monochrome\|color\(-index\)\=\)\>/
 syn keyword cssMediaAttr contained portrait landscape progressive interlace
 syn keyword cssMediaAttr contained coarse fast fine hover infinite p3 paged
 syn keyword cssMediaAttr contained rec2020 scroll slow srgb
