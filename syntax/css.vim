@@ -399,9 +399,9 @@ syn match cssUIAttr contained '\<preserve-3d\>'
 syn match cssIEUIAttr contained '\<bicubic\>'
 
 " Webkit/iOS specific properties
-syn match cssUIProp contained '\<tap-highlight-color\|user-select\|touch-callout\>'
+syn match cssUIProp contained '\<\(tap-highlight-color\|user-select\|touch-callout\)\>'
 " IE specific properties
-syn match cssIEUIProp contained '\<interpolation-mode\|zoom\|filter\>'
+syn match cssIEUIProp contained '\<\(interpolation-mode\|zoom\|filter\)\>'
 
 " Webkit/Firebox specific properties/attributes
 syn keyword cssUIProp contained appearance
