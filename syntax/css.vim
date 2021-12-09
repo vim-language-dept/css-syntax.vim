@@ -457,7 +457,7 @@ syn keyword cssPseudoClassId contained root empty target enabled disabled checke
 syn match cssPseudoClassId contained "\<first-\(line\|letter\)\>"
 syn match cssPseudoClassId contained "\<\(first\|last\|only\)-\(of-type\|child\)\>"
 syn match cssPseudoClassId contained  "\<focus\(-within\|-visible\)\=\>"
-syn region cssPseudoClassFn contained matchgroup=cssFunctionName start="\<\(not\|is\|lang\|\(nth\|nth-last\)-\(of-type\|child\)\)(" end=")" contains=cssStringQ,cssStringQQ
+syn region cssPseudoClassFn contained matchgroup=cssFunctionName start="\<\(not\|is\|lang\|\(nth\|nth-last\)-\(of-type\|child\)\)(" end=")" contains=cssStringQ,cssStringQQ,cssTagName,cssAttributeSelector,cssClassName,cssIdentifier
 " ------------------------------------
 " Vendor specific properties
 syn match cssPseudoClassId contained  "\<selection\>"
