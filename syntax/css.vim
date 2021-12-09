@@ -116,7 +116,7 @@ syn keyword cssColor contained ActiveBorder ActiveCaption AppWorkspace ButtonFac
 syn case ignore
 
 syn match cssImportant contained "!\s*important\>"
-syn match cssCustomProp contained "--[a-zA-Z0-9-_]*"
+syn match cssCustomProp contained "\<--[a-zA-Z0-9-_]*\>"
 
 syn match cssColor contained "\<transparent\>"
 syn match cssColor contained "\<currentColor\>"
