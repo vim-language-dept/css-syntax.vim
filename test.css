@@ -298,3 +298,17 @@ and (max-device-width:1024px)
   font-family: Roboto, Helvetica, test-serif, testing-sans-serif;
   font-family: monospace, cursive, fantasy, serif, sans-serif
 }
+
+#grid {
+  gap: 20px;
+  row-gap: 20px;
+  column-gap: 20px;
+
+  /**
+   * legacy gap properties -- should still highlight
+   * https://mapdashdev.wpengine.com/data-explorer/
+   */
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  grid-gap: 20px;
+}
