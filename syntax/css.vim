@@ -285,7 +285,7 @@ syn match cssGeneratedContentAttr contained "\<\(no-\)\=\(open\|close\)-quote\>"
 " https://www.w3.org/TR/css-grid-1/
 syn match cssGridProp contained "\<grid\>"
 syn match cssGridProp contained "\<grid-template\(-\(columns\|rows\|areas\)\)\=\>"
-syn match cssGridProp contained "\<grid-\(column\|row\)\(-\(start\|end\|gap\)\)\=\>"
+syn match cssGridProp contained "\<\(grid-\)\=\(column\|row\)\(-\(start\|end\|gap\)\)\=\>"
 syn match cssGridProp contained "\<grid-\(area\|gap\)\>"
 syn match cssGridProp contained "\<gap\>"
 syn match cssGridProp contained "\<grid-auto-\(flow\|rows\|columns\)\>"
