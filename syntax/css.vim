@@ -230,7 +230,7 @@ syn match cssFlexibleBoxAttr contained "\<space\(-\(between\|around\|evenly\)\)\
 
 " CSS Fonts Module Level 3
 " http://www.w3.org/TR/css-fonts-3/
-syn match cssFontProp contained "\<font\(-\(display\|family\|feature-settings\|kerning\|language-override\|size\(-adjust\)\=\|stretch\|style\|synthesis\|variant\(-\(alternates\|caps\|east-asian\|ligatures\|numeric\|position\)\)\=\|weight\)\)\=\>"
+syn match cssFontProp contained "\<font\(-\(family\|\|feature-settings\|kerning\|language-override\|size\(-adjust\)\=\|stretch\|style\|synthesis\|variant\(-\(alternates\|caps\|east-asian\|ligatures\|numeric\|position\)\)\=\|weight\)\)\=\>"
 
 " font attributes
 syn keyword cssFontAttr contained icon menu caption
@@ -251,8 +251,6 @@ syn keyword cssFontAttr contained italic oblique
 syn keyword cssFontAttr contained weight style
 " font-weight attributes
 syn keyword cssFontAttr contained bold bolder lighter
-" font-display attributes
-syn keyword cssFontAttr contained auto block swap fallback optional
 " TODO: font-variant-* attributes
 "------------------------------------------------
 
