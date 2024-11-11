@@ -337,3 +337,9 @@ and (max-device-width:1024px)
   margin-end: 0px; /* property shouldn't be highlighted */
   padding-end: 0px; /* property shouldn't be highlighted */
 }
+
+/* Vim issue #15968 */
+#issue-vim-15968 {
+  background-position-x: 20px;
+  background-position-y: 20px;
+}

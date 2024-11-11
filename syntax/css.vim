@@ -7,7 +7,7 @@
 "               Nikolai Weibull (Add CSS2 support)
 " URL:          https://github.com/vim-language-dept/css-syntax.vim
 " Maintainer:   Jay Sitter <jay@jaysitter.com>
-" Last Change:  2021 Oct 20
+" Last Change:  2024 Nov 12
 
 " quit when a syntax file was already loaded
 if !exists("main_syntax")
@@ -160,7 +160,7 @@ syn keyword cssAnimationAttr contained infinite
 "------------------------------------------------
 "  CSS Backgrounds and Borders Module Level 3
 "  http://www.w3.org/TR/css3-background/
-syn match cssBackgroundProp contained "\<background\(-\(attachment\|clip\|color\|image\|origin\|position\|repeat\|size\)\)\=\>"
+syn match cssBackgroundProp contained "\<background\(-\(attachment\|clip\|color\|image\|origin\|position\(-[xy]\)\=\|repeat\|size\)\)\=\>"
 " background-attachment attributes
 syn keyword cssBackgroundAttr contained scroll fixed local
 
